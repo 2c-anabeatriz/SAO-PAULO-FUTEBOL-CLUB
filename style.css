@@ -1,0 +1,99 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container comum para seções */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #c8102e; /* Vermelho do São Paulo */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+.section {
+    padding: 2rem 0;
+}
+
+.section h2 {
+    color: #c8102e;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Botões de acessibilidade */
+button {
+    background-color: #c8102e;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 3px solid yellow;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Ajuste para alto contraste */
+.alto-contraste {
+    background-color: #000;
+    color: #fff;
+}
